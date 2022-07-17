@@ -89,6 +89,8 @@ li a {
 ---
 ## 참고
 
+https://github.com/nlom0218/TIL/blob/main/CSS/Selector.md#4-id-%EC%85%80%EB%A0%89%ED%84%B0id-selector 
+
 https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048
 
 도서 - Do it! HTML + CSS + 자바스크립트 웹 표준의 정석
