@@ -4,7 +4,7 @@
 
 - [0. CSS 선택자](#0-CSS-선택자)
 - [1. 전체 선택자(Universal Selector)](#1-전체-선택자-universal-selector)
-- [2. 타입 선택자(Type Selector)](#2-태그타입-선택자-type-selector)
+- [2. 타입 선택자(Type Selector)](#2-타입-선택자-type-selector)
 - [3. ID 선택자(ID Selector)](#3-id-선택자-id-selector)
 - [4. 클래스 선택자(Class Selector)](#4-클래스-선택자class-selector)
 - [5. 연결 선택자(Combination Selector)](#5-연결-선택자combination-selector)
@@ -25,17 +25,12 @@
 
 ## 0. CSS 선택자
 
-style를 적용 하고자하는 HTML요소를 특정할 필요가 있다. 이때 사용하는 것이 셀렉터/선택자(Selector)이다. style를 적용하고자하는 HTML 요소를 셀렉터로 특정하고 선택된 요소에 스타일을 정의하는 것. 복수개의 셀렉터를 연속하여 지정할 수 있으며 쉼표(,)로 구분함.
-![CSS Rule Set](../image/CSS/CSSRuleSet.png)
-
-- 태그(tag): `<p></p>`와 같은 태그 자체
-- 요소(element): `<p>hello world</p>`에서 `<p>`태그 및 내부 부분을 모두 포함
-
-> `<p>`태그를 적용한 스타일이라는 표현은 옳지 않음. p요소에 적용하는 스타일로 표현하는 것이 옳바름.
+웹 문서에서 어느 부분에 스타일을 적용할지 알려주는 것. 복수개의 셀렉터를 연속하여 지정할 수 있으며 쉼표(,)로 구분함.
 
 ---
 
 ## 1. 전체 선택자(Universal Selector)
+문서의 모든 요소에 적용. 기본 스타일을 초기화할 때 사용(예: 전체 문서 마진과 패딩 여백 0)
 
 ---
 
