@@ -75,9 +75,22 @@ li a {
 ```
 
 ---
+
+## 6. 속성 선택자(Attribute Selector)
+
+---
+
+## 7. 가상 클래스 선택자 (Pseudo-Class Selector)
+
+---
+
+## 8. 가상 요소 선택자 (Pseudo-Element Selector)
+
+---
 ## 참고
 
 https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+
 도서 - Do it! HTML + CSS + 자바스크립트 웹 표준의 정석
 
 ---
