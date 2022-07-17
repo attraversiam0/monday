@@ -65,6 +65,8 @@
 
 ## 5. 연결 선택자(Combination Selector)
 
+### 5-1. 하위 선택자(Descendant Selector)
+
 기본형 `상위요소 하위요소`
 
 부모 요소에 포함된 하위 요소를 모두 선택함. 자손 선택자라고도 함.
@@ -73,6 +75,36 @@ li a {
   text-decoration: none;
 }
 ```
+
+### 5-2. 자식 선택자(Child Selector)
+
+기본형 `부모요소 > 자식요소`
+
+부모 요소에 포함된 자식 요소만 선택함. 
+
+```
+#container > ul {
+  border: 1px solid black;
+}
+```
+```
+<div id="container">
+   <ul>
+      <li> List Item
+        <ul>
+           <li> Child </li>
+        </ul>
+      </li>
+      <li> List Item </li>
+      <li> List Item </li>
+      <li> List Item </li>
+   </ul>
+</div>
+```
+> cf. 하위 선택자와 달리 손자 요소 이하는 선택하지 않음. 첫 번째 li의 자식인 ul은 대상이 되지 않음.
+
+### 5-3. 형제(동위) 선택자 (Sibling)
+
 
 ---
 
