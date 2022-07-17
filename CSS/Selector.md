@@ -2,10 +2,10 @@
 
 ## 👉 바로가기
 
-- [0. CSS선택자](#0-CSS선택자)
-- [1. 전체 선택자(Universal Selector)](#1-전체-선택자universal-selector)
-- [2. 타입 선택자(Type Selector)](#2-태그타입-선택자type-selector)
-- [3. ID 선택자(ID Selector)](#3-id-선택자id-selector)
+- [0. CSS 선택자](#0-CSS-선택자)
+- [1. 전체 선택자(Universal Selector)](#1-전체-선택자-universal-selector)
+- [2. 타입 선택자(Type Selector)](#2-태그타입-선택자-type-selector)
+- [3. ID 선택자(ID Selector)](#3-id-선택자-id-selector)
 - [4. 클래스 선택자(Class Selector)](#4-클래스-선택자class-selector)
 - [5. 연결 선택자(Combination Selector)](#5-연결-선택자combination-selector)
   - [5-1. 후손 선택자(Descendant Selector)](#5-1-후손-셀렉터-descendant-selector)
@@ -23,7 +23,7 @@
 
 ---
 
-## 0. CSS선택자
+## 0. CSS 선택자
 
 style를 적용 하고자하는 HTML요소를 특정할 필요가 있다. 이때 사용하는 것이 셀렉터/선택자(Selector)이다. style를 적용하고자하는 HTML 요소를 셀렉터로 특정하고 선택된 요소에 스타일을 정의하는 것. 복수개의 셀렉터를 연속하여 지정할 수 있으며 쉼표(,)로 구분함.
 ![CSS Rule Set](../image/CSS/CSSRuleSet.png)
@@ -35,13 +35,14 @@ style를 적용 하고자하는 HTML요소를 특정할 필요가 있다. 이때
 
 ---
 
+## 1. 전체 선택자 (
 
 ---
 
 ## 참고
 
-[poiemaweb 2-2 셀렉터](https://poiemaweb.com/css3-selector)  
-도서 - HTML + CSS + 자바스크립트 웹 표준의 정석
+https://code.tutsplus.com/ko/tutorials/the-30-css-selectors-you-must-memorize--net-16048
+도서 - Do it! HTML + CSS + 자바스크립트 웹 표준의 정석
 
 ---
 
