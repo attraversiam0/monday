@@ -1,0 +1,31 @@
+/* reset css import */
+@import './reset.css';
+
+/* 여기부터 작성하세요. */
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container > div {
+  width: 200px;
+  background-color: white;
+}
+
+#image {
+  height: 180px;
+}
+#content {
+  height: 160px;
+}
+
+#fruit {
+}
+#title {
+}
+#price {
+}

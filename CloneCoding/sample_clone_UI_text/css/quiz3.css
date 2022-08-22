@@ -1,0 +1,39 @@
+/* reset css import */
+@import './reset.css';
+
+/* 여기부터 작성하세요. */
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#profile {
+  width: 360px;
+  height: 70px;
+}
+#profile > div {
+}
+
+img {
+}
+
+#name {
+}
+
+#time {
+}
+
+#content {
+  width: 360px;
+  height: 100px;
+}
+
+#text {
+}
+
+#more {
+}
