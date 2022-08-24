@@ -2,30 +2,44 @@
 @import './reset.css';
 
 /* 여기부터 작성하세요. */
-#container {
-  width: 100vw;
-  height: 100vh;
+body{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#container > div {
-  width: 200px;
+#container {
+  width: 210px;
+  height: 340px;
   background-color: white;
+  border: 1px solid white;
+  border-radius: 20px;
 }
 
-#image {
+#div > img {
   height: 180px;
+  width: 210px;
+  border-top: 1px solid white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
 }
+
 #content {
   height: 160px;
+  padding: 10px;
 }
 
 #fruit {
+  font-size: 1em;
+  color: #ccc;
 }
 #title {
+  font-size: 1.2em;
+  font-weight: bolder;
 }
 #price {
+  height: 55px;
+  font-size: 1.2em;
+  font-weight: bolder;
 }
