@@ -73,3 +73,8 @@
   changeBttn.onclick = changeColor;
 </script>
 ```
+
+## 참고
+
+도서 - Do it! HTML + CSS + 자바스크립트 웹 표준의 정석
+생활코딩 - 자바스크립트 기초/ 4. HTML과 JS의 만남 : 이벤트
